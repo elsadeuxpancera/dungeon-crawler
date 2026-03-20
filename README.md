@@ -56,8 +56,8 @@ You must complete each checkpoint before moving on.
 ### You are done when:
 - You can run:
 
-    Room room = new Room();
-    System.out.println(room);
+    `Room room = new Room();`
+    `System.out.println(room);`
 
 - The output shows a list of items and monsters
 
@@ -73,9 +73,9 @@ You must complete each checkpoint before moving on.
 ### You are done when:
 - You can run:
 
-    Map map = new Map(5, 6);
-    System.out.println(map.getRoom(0, 0));
-    System.out.println(map.getRoom(2, 3));
+    `Map map = new Map(5, 6);`
+    `System.out.println(map.getRoom(0, 0));`
+    `System.out.println(map.getRoom(2, 3));`
 
 - No `null` values appear
 
@@ -97,12 +97,12 @@ You must complete each checkpoint before moving on.
 ### You are done when:
 - You can run:
 
-    Player p = new Player(100, "Hero", 0, 0);
-    Map map = new Map(5, 6);
+    `Player p = new Player(100, "Hero", 0, 0);`
+    Map map = new Map(5, 6);`
 
-    System.out.println(p.look(map));
-    p.moveTo(1, 2);
-    System.out.println(p.look(map));
+    System.out.println(p.look(map));`
+    `p.moveTo(1, 2);`
+    `System.out.println(p.look(map));`
 
 ---
 
