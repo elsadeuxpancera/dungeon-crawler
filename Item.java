@@ -26,6 +26,8 @@ public class Item {
 
    public Item() {
       // TODO: Pick a random item type from itemTypes
+      int i = (int) (Math.random() * 20);
+      itemType = itemTypes[i];
    }
    
    public String getItemType() {
@@ -34,5 +36,6 @@ public class Item {
    
    public String toString() {
       // TODO: Build a descriptive String for use by other methods
+      return "Item is: " + itemType;
    }
 }
