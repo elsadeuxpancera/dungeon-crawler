@@ -41,7 +41,7 @@ public class Game {
                   if ((randomX - 1) >= 1) {
                      randomX = randomX -1;
                      player.moveTo(randomX, randomY);
-                  } else {
+                  } else { 
                      System.out.println("Out of bounds, player cannot go up");
                   }
                   System.out.println("Your Position: " + randomX + ", " + randomY);
