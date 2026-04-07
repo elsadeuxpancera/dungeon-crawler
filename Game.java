@@ -8,6 +8,7 @@ public class Game {
             
       Scanner scanner = new Scanner(System.in);
       
+      
       // TODO: Create a Map which populates each element of the grid with a Room
       // that contains a random assortment of Monsters and Items
       Map randomMap = new Map(5,6);
@@ -27,7 +28,7 @@ public class Game {
             if (input.equals("EXIT")) {
                 System.out.println("Exiting game. Goodbye!");
                 exitGame = true;
-            }
+            } 
             else if (input.equals("LOOK") || input.equals("SEARCH")) {
                System.out.println(player.look(randomMap));
             }
